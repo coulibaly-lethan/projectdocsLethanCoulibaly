@@ -1,0 +1,15 @@
+.container{
+    font-family: 'Roboto';
+    max-width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7EB2DD;
+}
+body{
+background-color:#7EB2DD ;
+font-size: 70px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
