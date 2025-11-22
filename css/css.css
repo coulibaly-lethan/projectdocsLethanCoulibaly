@@ -1,15 +1,26 @@
-.container{
-    font-family: 'Roboto';
+.container {
     max-width: 65vw;
     margin-left: auto;
     margin-right: auto;
     background-color: #7EB2DD;
 }
-body{
-background-color:#7EB2DD ;
-font-size: 70px;
+
+:root {
+    --font: 'Satoshi', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 }
+
+body {
+    background-color: #7EB2DD;
+    font-family: var(--font);
+    font-size: 18px;
+    margin: 0;
+    padding: 1rem;
+}
+
 a {
     color: white;
     text-decoration: none;
+}
+.dark {
+    color: #03045E;
 }
